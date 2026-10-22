@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Space2nav: runtime logs and local model weights (symlinks to
+# machine-specific absolute paths, or large binaries) -- never portable,
+# never source.
+/logs/
+/checkpoints/*
+/navdp-cross-modal.ckpt

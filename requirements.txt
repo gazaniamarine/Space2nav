@@ -1,0 +1,7 @@
+torch
+transformers
+diffusers
+pillow
+numpy
+opencv-python
+eclipse-zenoh
